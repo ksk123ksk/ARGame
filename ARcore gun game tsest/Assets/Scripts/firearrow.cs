@@ -26,9 +26,12 @@ public class firearrow : MonoBehaviour
     }
     public void ButtonClick()
     {
-        GameObject arrowclone = Instantiate(arrow, transform.position, transform.rotation) as GameObject;
-        Rigidbody rb = arrowclone.GetComponent<Rigidbody>();
-        RayGun();
+        if (Input.touchCount == 1)
+        {
+            GameObject arrowclone = Instantiate(arrow, transform.position, transform.rotation) as GameObject;
+            Rigidbody rb = arrowclone.GetComponent<Rigidbody>();
+            RayGun();
+        }
         
     }
     public void RayGun()

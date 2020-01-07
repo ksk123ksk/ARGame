@@ -8,7 +8,7 @@ public class healthBar : MonoBehaviour
     public const int maxHealth = 1000;
     public int currentHealth;
     //血量條
-    public RectTransform HealthBar, Hurt;
+    public RectTransform HealthBar;
 
     void Start()
     {
@@ -25,12 +25,6 @@ public class healthBar : MonoBehaviour
         currentHealth = currentHealth - damage;
         HealthBar.sizeDelta = new Vector2(currentHealth, HealthBar.sizeDelta.y);
 
-        //呈現傷害量
 
-        if (Hurt.sizeDelta.x > HealthBar.sizeDelta.x)
-        {
-            //讓傷害量(紅色血條)逐漸追上當前血量            
-            Hurt.sizeDelta += new Vector2(-1, 0) * Time.deltaTime * 100;
-        }
     }
 }

@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/user/Desktop/newtest.apk
+C:/Users/appedu/Desktop/ARAPP.apk
 SceneListBegin?
 Assets/Scenes/newtest.unity
 SceneListEnd?
@@ -184,6 +184,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 b9f83b3735af289167e1e6f7bc381d39 Assembly-CSharp.dll:GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController
 40eab39826f66889566d3a3e6ef95673 Assembly-CSharp.dll:GoogleARCore.Examples.ObjectManipulation.TranslationManipulator
+13f8f373b951cbaf0f891949929b196a Assembly-CSharp.dll:.fire
 cc47f7a12177b46911637845a11bd7fc Assembly-CSharp.dll:GoogleARCore.AugmentedImageDatabase
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 3581caf97faafeb1c9f0b048ae6ee4ff Assembly-CSharp.dll:.LPA_Copper_Demo_Controller
@@ -199,3 +200,6 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 a6be390312032ba0856f81fc3c448644 Assembly-CSharp.dll:GoogleARCore.Examples.ObjectManipulation.SelectionManipulator
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+9a6e8d45c3886d1029a2ceb220128fc9 Assembly-CSharp.dll:.firearrow
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityStore.dll:UnityEngine.Store.MainThreadDispatcher
+a318a82d5abde553e75543c7b3aba918 XiaomiSupport.dll:AppStoresSupport.AppStoreSettings

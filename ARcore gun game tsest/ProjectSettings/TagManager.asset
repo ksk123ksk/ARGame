@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ' display'
   - New tag
+  - ManipulationSystem
+  - enemy
   layers:
   - Default
   - TransparentFX

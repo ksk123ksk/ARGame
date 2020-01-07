@@ -18,7 +18,7 @@ public class fire : MonoBehaviour
     }
     void OnTriggerEnter(Collider GetObj)
     {
-        if (GetObj != null)
+        if (GetObj.gameObject.tag == "enemy")
             Destroy(this.gameObject);
     }
 }
