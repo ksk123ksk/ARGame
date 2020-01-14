@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 136
+  controlID: 68
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -434,9 +434,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d6600000
-      m_LastClickedID: 24790
-      m_ExpandedIDs: d6600000
+      m_SelectedIDs: 92410000
+      m_LastClickedID: 16786
+      m_ExpandedIDs: 5c41000072410000884100008c41000092410000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -539,14 +539,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\ARGame\ARcore gun game tsest
+  m_LastProjectPath: C:\Users\appedu\Desktop\ARGame\ARcore gun game tsest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 564a0000
-    m_LastClickedID: 19030
-    m_ExpandedIDs: 00000000e24800002e49000086490000fc490000104a0000444a00004a4a00005a4a00007e4a0000aa4a0000cc4a0000f24b0000f84b000000ca9a3b
+    m_SelectedIDs: 683a0000
+    m_LastClickedID: 14952
+    m_ExpandedIDs: 00000000b037000038380000d8380000a8390000c6390000403a0000503a00006e3a0000b23a0000e63a0000243b0000b43d0000ba3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,7 +574,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e24800002e49000086490000fc490000104a0000444a00005a4a00007e4a0000aa4a0000cc4a0000f24b0000f84b0000
+    m_ExpandedIDs: 00000000b037000038380000d8380000a8390000c6390000403a0000503a00006e3a0000b23a0000e63a0000243b0000b43d0000ba3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,9 +740,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.18572998, y: -0.081892364, z: 0.0005126453}
+    m_Target: {x: -54.70529, y: 432.88507, z: -0.0131835975}
     speed: 2
-    m_Value: {x: 0.18572998, y: -0.081892364, z: 0.0005126453}
+    m_Value: {x: -54.70529, y: 432.88507, z: -0.0131835975}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -758,29 +758,29 @@ MonoBehaviour:
     showParticleSystems: 1
   grid:
     xGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    yGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    yGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 0.11201715
+    m_Target: 1145.6023
     speed: 2
-    m_Value: 0.11201715
+    m_Value: 1145.6023
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
