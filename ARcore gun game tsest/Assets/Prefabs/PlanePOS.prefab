@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6111271511503401312
 Transform:
@@ -106,7 +106,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3306447817183520871
 Transform:
@@ -140,7 +140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &7652584016351346209
 RectTransform:
@@ -283,7 +283,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &2877268373735410973
 RectTransform:
@@ -430,7 +430,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &4747267555295345192
 RectTransform:
@@ -607,15 +607,15 @@ PrefabInstance:
       propertyPath: tower
       value: 
       objectReference: {fileID: 6553168444790307604}
-    - target: {fileID: 8648928572309045708, guid: ae759c1d658c7c345b2afd64e1131ae0,
-        type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 158545189772110244, guid: ae759c1d658c7c345b2afd64e1131ae0,
         type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648928572309045708, guid: ae759c1d658c7c345b2afd64e1131ae0,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae759c1d658c7c345b2afd64e1131ae0, type: 3}
@@ -642,6 +642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoundTower_High
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007240872588102355, guid: e2347e5ee5c0ac643b900da4ca1d5e46,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1007240872587810547, guid: e2347e5ee5c0ac643b900da4ca1d5e46,
         type: 3}
@@ -732,6 +737,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.z
       value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007240872588102359, guid: e2347e5ee5c0ac643b900da4ca1d5e46,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007240872588102357, guid: e2347e5ee5c0ac643b900da4ca1d5e46,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007240872588102353, guid: e2347e5ee5c0ac643b900da4ca1d5e46,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007240872588102363, guid: e2347e5ee5c0ac643b900da4ca1d5e46,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007240872588102361, guid: e2347e5ee5c0ac643b900da4ca1d5e46,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2347e5ee5c0ac643b900da4ca1d5e46, type: 3}
