@@ -290,8 +290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 800, y: -600}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 316, y: -141}
+  m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &842636009
 MonoBehaviour:
@@ -503,7 +503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_LocalRotation.x
@@ -568,7 +568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirstPersonCamera: {fileID: 26088551}
-  arrow: {fileID: 601914583951922459, guid: 57abd578e4e528c4791b1cd1a7e01d28, type: 3}
+  arrow: {fileID: 3137435491161166558, guid: 57abd578e4e528c4791b1cd1a7e01d28, type: 3}
   arrowStart: {fileID: 1194320640}
 --- !u!1 &1231964416
 GameObject:

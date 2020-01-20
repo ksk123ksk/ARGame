@@ -242,8 +242,6 @@
     <Compile Include="Assets\Barbarian\Models\Textures\GoogleARCore\SDK\Scripts\XPSession.cs" />
     <Compile Include="Assets\Barbarian\Models\Textures\GoogleARCore\SDK\Scripts\XPSessionStatus.cs" />
     <Compile Include="Assets\Barbarian\Models\Textures\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
-    <Compile Include="Assets\Low Poly Arsenal - Copper\Demo\Scripts\LPA_Copper_Demo_Controller.cs" />
-    <Compile Include="Assets\Low Poly Arsenal - Copper\Demo\Scripts\LPA_Copper_Demo_Rotator.cs" />
     <Compile Include="Assets\Scripts\AppController.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemygeneration.cs" />

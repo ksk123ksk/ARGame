@@ -62,10 +62,12 @@ public class EnemyController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider GetObj)
     {
+        
         StopCoroutine(enemyattack());
-        if (GetObj.name == "arrowclone(Clone)")
+        if (GetObj.GetComponent<Collider>().tag == "arrow")
         {
-            EnemyDamage();
+            Debug.Log("射中");
+            Destroy(this.gameObject);
         }
     }
     IEnumerator enemyattack()
@@ -79,10 +81,10 @@ public class EnemyController : MonoBehaviour
             yield return new WaitForSeconds(3);
         }
     }
-    public void EnemyDamage()
+    /*public void EnemyDamage()
     {
         enemyAnimator.Play("Cry");
-        Destroy(this.gameObject,1f);
+        Destroy(this.gameObject,2f);
 
-    }
+    }*/
 }

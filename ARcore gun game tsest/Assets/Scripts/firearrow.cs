@@ -26,15 +26,15 @@ public class firearrow : MonoBehaviour
     }
     public void ButtonClick()
     {
-        if (Input.touchCount == 1)
-        {
+        //if (Input.touchCount == 1)
+        //{
             GameObject arrowclone = Instantiate(arrow, transform.position, transform.rotation) as GameObject;
-            Rigidbody rb = arrowclone.GetComponent<Rigidbody>();
-            RayGun();
-        }
+            //Rigidbody rb = arrowclone.GetComponent<Rigidbody>();
+           // RayGun();
+        //}
         
     }
-    public void RayGun()
+    /*public void RayGun()
     {
         Vector3 forward = FirstPersonCamera.transform.TransformDirection(Vector3.forward) * 1000;
         if (Physics.Raycast(FirstPersonCamera.transform.position, FirstPersonCamera.transform.forward, out hit, 1000))
@@ -42,5 +42,5 @@ public class firearrow : MonoBehaviour
             getObjName = hit.transform.name;
         }
         Instantiate(arrow, arrowStart.position, arrowStart.rotation);
-    }
+    }*/
 }
