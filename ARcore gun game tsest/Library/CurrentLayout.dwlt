@@ -263,8 +263,8 @@ MonoBehaviour:
     y: 0
     width: 768
     height: 465
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -434,20 +434,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 784d0000
-      m_LastClickedID: 19832
-      m_ExpandedIDs: f4ebffffd6fbffff06300000c64d0000584e0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d6fbffffd62e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: ARCore Device
-        m_OriginalName: ARCore Device
+        m_Name: Canvas
+        m_OriginalName: Canvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 19832
+        m_UserData: 12000
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -533,20 +533,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/UIImage
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/UIImage
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Git\ARGame\ARcore gun game tsest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 382b0000
-    m_LastClickedID: 11064
-    m_ExpandedIDs: 000000005e280000ea28000094290000702a0000902a00000e2b00001e2b00003e2b0000842b0000ba2b0000f82b0000a42d0000b42e0000
+    m_SelectedIDs: 26340000
+    m_LastClickedID: 13350
+    m_ExpandedIDs: 000000003628000050290000322a00009e2a0000a82a0000082b0000382b00000e3400001034000012340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -562,7 +562,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 2}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -574,7 +574,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e280000ea28000094290000702a0000902a00000e2b00001e2b00003e2b0000842b0000ba2b0000f82b0000ae2e0000b42e0000
+    m_ExpandedIDs: 000000003628000050290000182a0000322a00009e2a0000a82a0000c42a0000082b0000382b0000ae2c00000e3400001034000012340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -602,7 +602,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 6c2a0000fa410000283c0000902d0000d02e0000f62c0000
+    m_ExpandedInstanceIDs: 6c2a0000fa410000283c0000902d0000d02e0000f62c00002034000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -618,7 +618,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -740,9 +740,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 383, y: 215.5, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 383, y: 215.5, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -762,21 +762,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.091048226, y: -0.65519476, z: 0.08000022, w: 0.7456748}
+    m_Target: {x: 0.008999185, y: 0.014099947, z: -0.00012711868, w: 0.99986017}
     speed: 2
-    m_Value: {x: 0.091048196, y: -0.6551945, z: 0.08000019, w: 0.74567455}
+    m_Value: {x: 0.008999185, y: 0.014099947, z: -0.00012711868, w: 0.99986017}
   m_Size:
-    m_Target: 3.533673
+    m_Target: 1450.2336
     speed: 2
-    m_Value: 3.533673
+    m_Value: 1450.2336
   m_Ortho:
     m_Target: 1
     speed: 2
