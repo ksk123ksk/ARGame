@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 68
+  controlID: 137
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,8 +211,8 @@ MonoBehaviour:
     y: 0
     width: 598
     height: 420
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -263,8 +263,8 @@ MonoBehaviour:
     y: 0
     width: 768
     height: 465
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -436,18 +436,18 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6fbffffd62e0000
+      m_ExpandedIDs: 80bbfcffb6bbfcffc0bbfcff6e43ffff26bbffffcefbffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canvas
-        m_OriginalName: Canvas
+        m_Name: PlanePOS
+        m_OriginalName: PlanePOS
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 12000
+        m_UserData: -214080
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -533,20 +533,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/UIImage
+    - Assets/other
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/UIImage
+  - Assets/other
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Git\ARGame\ARcore gun game tsest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26340000
-    m_LastClickedID: 13350
-    m_ExpandedIDs: 000000003628000050290000322a00009e2a0000a82a0000082b0000382b00000e3400001034000012340000
+    m_SelectedIDs: 722a0000
+    m_LastClickedID: 10866
+    m_ExpandedIDs: 000000003628000056290000382a0000a62a0000b02a0000102b0000442b0000223400002434000026340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,7 +574,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003628000050290000182a0000322a00009e2a0000a82a0000c42a0000082b0000382b0000ae2c00000e3400001034000012340000
+    m_ExpandedIDs: 000000003628000056290000382a0000a62a0000b02a0000102b0000442b0000223400002434000026340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,9 +740,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 383, y: 215.5, z: 0}
+    m_Target: {x: 383, y: 215.5, z: -0.4790001}
     speed: 2
-    m_Value: {x: 383, y: 215.5, z: 0}
+    m_Value: {x: 383, y: 215.5, z: -0.4790001}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -770,13 +770,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.008999185, y: 0.014099947, z: -0.00012711868, w: 0.99986017}
+    m_Target: {x: -0.011973816, y: -0.065347925, z: -0.0007850763, w: 0.99779046}
     speed: 2
-    m_Value: {x: 0.008999185, y: 0.014099947, z: -0.00012711868, w: 0.99986017}
+    m_Value: {x: -0.011973816, y: -0.065347925, z: -0.0007850763, w: 0.99779046}
   m_Size:
-    m_Target: 1450.2336
+    m_Target: 1364.6064
     speed: 2
-    m_Value: 1450.2336
+    m_Value: 1364.6064
   m_Ortho:
     m_Target: 1
     speed: 2

@@ -499,11 +499,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.82
       objectReference: {fileID: 0}
     - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_LocalRotation.x
@@ -570,6 +570,14 @@ MonoBehaviour:
   FirstPersonCamera: {fileID: 26088551}
   arrow: {fileID: 3137435491161166558, guid: 57abd578e4e528c4791b1cd1a7e01d28, type: 3}
   arrowStart: {fileID: 1194320640}
+--- !u!81 &1194320642
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194320639}
+  m_Enabled: 1
 --- !u!1 &1231964416
 GameObject:
   m_ObjectHideFlags: 0

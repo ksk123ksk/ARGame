@@ -248,6 +248,7 @@
     <Compile Include="Assets\Scripts\fire.cs" />
     <Compile Include="Assets\Scripts\firearrow.cs" />
     <Compile Include="Assets\Scripts\healthBar.cs" />
+    <Compile Include="Assets\Scripts\score.cs" />
     <None Include="Assets\Barbarian\Models\Textures\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />
     <None Include="Assets\Barbarian\Models\Textures\GoogleARCore\Examples\Common\Materials\Shaders\MobileDiffuseWithLightEstimation.shader" />
     <None Include="Assets\Barbarian\Models\Textures\GoogleARCore\SDK\Materials\ARBackground.shader" />

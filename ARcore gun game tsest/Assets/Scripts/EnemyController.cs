@@ -10,7 +10,8 @@ public class EnemyController : MonoBehaviour
    // public float speed = 0.005f;
     private float firstSpeed;//紀錄第一次移動的距離
     public int i=1;
-   
+    public int AddScore;
+
 
 
     // Start is called before the first frame update
@@ -51,6 +52,10 @@ public class EnemyController : MonoBehaviour
         else
             return (firstSpeed / tmp);
     }*/
+    /// <summary>
+    /// 碰到塔(攻擊)
+    /// </summary>
+    /// <param name="other"></param>
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.name == "RoundTower_High")
@@ -60,6 +65,10 @@ public class EnemyController : MonoBehaviour
             StartCoroutine(enemyattack());
         }
     }
+    /// <summary>
+    /// 被箭射到(死亡)
+    /// </summary>
+    /// <param name="GetObj"></param>
     private void OnTriggerEnter(Collider GetObj)
     {
         
@@ -67,6 +76,7 @@ public class EnemyController : MonoBehaviour
         if (GetObj.GetComponent<Collider>().tag == "arrow")
         {
             Debug.Log("射中");
+            GameObject.Find("PlanePOS").GetComponent<score>().Score(AddScore);
             Destroy(this.gameObject);
         }
     }
@@ -80,11 +90,5 @@ public class EnemyController : MonoBehaviour
             tower.GetComponent<healthBar>().TakeDamage(50);
             yield return new WaitForSeconds(3);
         }
-    }
-    /*public void EnemyDamage()
-    {
-        enemyAnimator.Play("Cry");
-        Destroy(this.gameObject,2f);
-
-    }*/
+    }  
 }

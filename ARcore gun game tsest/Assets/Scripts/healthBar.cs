@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class healthBar : MonoBehaviour
 {
@@ -9,6 +10,13 @@ public class healthBar : MonoBehaviour
     public int currentHealth;
     //血量條
     public RectTransform HealthBar;
+    [Header("遊戲結束的畫面")]
+    public GameObject GameOverUI;
+    [Header("遊戲結束的分數文字")]
+    public Text GameOverScoreText;
+    [Header("分數的文字")]
+    public Text ScoreText;
+
 
     void Start()
     {
@@ -24,7 +32,12 @@ public class healthBar : MonoBehaviour
     {
         currentHealth = currentHealth - damage;
         HealthBar.sizeDelta = new Vector2(currentHealth, HealthBar.sizeDelta.y);
-
+        if (currentHealth <= 0)
+        {
+            GameOverUI.SetActive(true);
+            GameOverScoreText.text = ScoreText.text;
+            Time.timeScale = 0;
+        }
 
     }
 }
