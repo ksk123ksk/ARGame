@@ -44,6 +44,7 @@ public class AppController : MonoBehaviour
                 {
 
                     var PlaneObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+                    PlaneObject.name = "PlanePOS";
                     PlaneObject.transform.Rotate(0, mModelRotation, 0, Space.Self);
                     var anchor = hit.Trackable.CreateAnchor(hit.Pose);
                     PlaneObject.transform.parent = anchor.transform;

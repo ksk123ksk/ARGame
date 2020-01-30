@@ -18,8 +18,8 @@ public class Enemygeneration : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        StartCoroutine(spawnWaves());//定義一個函數來限制怪物產生的時間
+
+        InvokeRepeating("spawnWaves", 1f, 1f); //定義一個函數來限制怪物產生的時間
         
     }
 
@@ -28,16 +28,16 @@ public class Enemygeneration : MonoBehaviour
     {
         
     }
-    IEnumerator spawnWaves()
+    void spawnWaves()
 
     {  
-        yield return new WaitForSeconds(WaitTime); //在遊戲開始後會在waittime時間後才開始執行
+        //yield return new WaitForSeconds(WaitTime); //在遊戲開始後會在waittime時間後才開始執行
 
-        while(true)
+        //while(true)
 
-        {
-            for (int i = 0; i < enemyCount; )   
-             {
+        //{
+            //for (int i = 0; i < enemyCount; )   
+             //{
                     posX = plane.transform.position.x;
                     posY = plane.transform.position.y;
                     posZ = plane.transform.position.z;
@@ -48,8 +48,8 @@ public class Enemygeneration : MonoBehaviour
                     enemyclone.SetActive(true);
                     Destroy(enemyclone, 10f);
                     enemyCount++;
-                    yield return new WaitForSeconds(NextTime);//限制生成時間間隔
-             }  
-        }
+                    //yield return new WaitForSeconds(NextTime);//限制生成時間間隔
+             //}  
+        //}
     }
 }

@@ -32,4 +32,9 @@ public class score : MonoBehaviour
         Time.timeScale = 1;
         Application.LoadLevel(Application.loadedLevel);
     }
+    public void Exit()
+    {
+        Application.Quit();
+
+    }
 }

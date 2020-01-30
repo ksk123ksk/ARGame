@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 842636010}
   - component: {fileID: 842636009}
   m_Layer: 5
-  m_Name: Button
+  m_Name: shootButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -290,8 +290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 316, y: -141}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchoredPosition: {x: 900, y: -370}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &842636009
 MonoBehaviour:
@@ -499,11 +499,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.131
       objectReference: {fileID: 0}
     - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.82
+      value: -0.666
       objectReference: {fileID: 0}
     - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_LocalRotation.x
@@ -568,6 +568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirstPersonCamera: {fileID: 26088551}
+  shootBtn: {fileID: 842636007}
   arrow: {fileID: 3137435491161166558, guid: 57abd578e4e528c4791b1cd1a7e01d28, type: 3}
   arrowStart: {fileID: 1194320640}
 --- !u!81 &1194320642

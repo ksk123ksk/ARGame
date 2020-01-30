@@ -8,7 +8,7 @@ public class firearrow : MonoBehaviour
     string getObjName;
     RaycastHit hit;
     public Camera FirstPersonCamera;
-
+    public GameObject shootBtn;
 
     public GameObject arrow;
     public Transform arrowStart;
@@ -33,6 +33,10 @@ public class firearrow : MonoBehaviour
            // RayGun();
         //}
         
+    }
+    public void shootBTNfalse()
+    {
+            shootBtn.SetActive(false);
     }
     /*public void RayGun()
     {

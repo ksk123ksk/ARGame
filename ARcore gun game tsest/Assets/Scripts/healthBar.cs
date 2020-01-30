@@ -16,6 +16,7 @@ public class healthBar : MonoBehaviour
     public Text GameOverScoreText;
     [Header("分數的文字")]
     public Text ScoreText;
+    
 
 
     void Start()
@@ -35,6 +36,7 @@ public class healthBar : MonoBehaviour
         if (currentHealth <= 0)
         {
             GameOverUI.SetActive(true);
+            GameObject.Find("First Person Camera").GetComponent<firearrow>().shootBTNfalse();
             GameOverScoreText.text = ScoreText.text;
             Time.timeScale = 0;
         }
